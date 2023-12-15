@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main()
+void main(void)
 {
   int n, i, j, count;
 

@@ -1,9 +1,10 @@
 //? Write a C program to find the roots of a quadratic equation.
 
 #include <stdio.h>
+#include <conio.h>
 #include <math.h>
 
-int main()
+void main(void)
 {
   float a, b, c, root1, root2, discriminant;
 
@@ -25,7 +26,9 @@ int main()
     printf("Roots are equal =%f %f", root1, root2);
   }
   else
+  {
     printf("Roots are imaginary");
+  }
 
-  return 0;
+  getch();
 }

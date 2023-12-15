@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <conio.h>
 
-// Using Recursion
 int factorialRecursive(int number)
 {
   if (number == 0 || number == 1)
@@ -26,7 +25,7 @@ int factorialNonRecursive(int number)
   return factorial;
 }
 
-int main()
+void main(void)
 {
   int num;
 
@@ -38,5 +37,4 @@ int main()
   printf("Factorial using non-recursive function: %d\n", factorialNonRecursive(num));
 
   getch();
-  return 0;
 }

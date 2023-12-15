@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+void main(void)
 {
   int arr[25], large, small, size;
 
@@ -36,5 +36,4 @@ int main()
   printf("Smallest element in array: %d", small);
 
   getch();
-  return 0;
 }

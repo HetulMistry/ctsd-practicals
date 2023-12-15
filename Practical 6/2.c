@@ -24,7 +24,7 @@ int gcdNonRecursive(int a, int b)
   }
   return a;
 }
-int main()
+void main(void)
 {
   int num1, num2;
 
@@ -36,5 +36,4 @@ int main()
   printf("GCD using non-recursive function: %d\n", gcdNonRecursive(num1, num2));
 
   getch();
-  return 0;
 }

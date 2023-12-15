@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main()
+void main(void)
 {
   int number, sum = 0;
 
@@ -17,4 +17,5 @@ void main()
   }
 
   printf("Sum of individual positive integer is %d", sum);
+  getch();
 }

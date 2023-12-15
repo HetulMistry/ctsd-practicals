@@ -39,7 +39,7 @@ void printMatrix(int matrix[10][10], int rows, int cols)
   }
 }
 
-int main(void)
+void main(void)
 {
   int firstMatrix[10][10], secondMatrix[10][10], result[10][10];
   int rows1, cols1, rows2, cols2;
@@ -91,5 +91,4 @@ int main(void)
   }
 
   getch();
-  return 0;
 }
