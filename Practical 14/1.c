@@ -1,12 +1,12 @@
 //? Write a c program to take multiline string input and print individual string length.
 
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 
-void main(void)
+int main(void)
 {
   char input[1000];
+  int length = 0;
 
   printf("Enter a multiline string (Ctrl+D to end input):\n");
 
@@ -16,14 +16,16 @@ void main(void)
     {
       if (input[i] == ' ' || input[i] == '\n')
       {
-        printf("\n");
+        printf("Length: %d\n", length);
+        length = 0;
       }
       else
       {
-        printf("%c", input[i]);
+        // printf("%c", input[i]);
+        length++;
       }
     }
   }
 
-  getch();
+  return 0;
 }
