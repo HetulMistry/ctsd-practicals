@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   int x, n;
   double sum;
@@ -38,4 +38,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

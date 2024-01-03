@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int arr[25], large, small, size;
 
-  printf("Enter size of array (max 25):\n");
+  printf("Enter size of array (max 25):");
   scanf("%d", &size);
 
   printf("Enter integer array elements:\n");
@@ -36,4 +36,5 @@ void main(void)
   printf("Smallest element in array: %d", small);
 
   getch();
+  return 0;
 }

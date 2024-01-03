@@ -32,7 +32,7 @@ void insertSubstring(char mainString[], char subString[], int position)
   printf("Modified String after inserting sub-string: %s\n", newString);
 }
 
-void main(void)
+int main(void)
 {
   char mainString[100], subString[100];
   int position;
@@ -49,4 +49,5 @@ void main(void)
   insertSubstring(mainString, subString, position);
 
   getch();
+  return 0;
 }

@@ -14,8 +14,8 @@ int main(void)
 
   if (discriminant > 0)
   {
-    root1 = (-b + sqrt(discriminant)) / (2 * a);
-    root2 = (-b - sqrt(discriminant)) / (2 * a);
+    root1 = -1 * ((-b + sqrt(discriminant)) / (2 * a));
+    root2 = -1 * ((-b - sqrt(discriminant)) / (2 * a));
     printf("Root1 = %0.2lf and Root2 = %0.2lf", root1, root2);
   }
 
@@ -33,4 +33,5 @@ int main(void)
   }
 
   getch();
+  return 0;
 }

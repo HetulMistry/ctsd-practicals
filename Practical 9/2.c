@@ -1,10 +1,9 @@
 //? Write a C program to count the lines, words and characters in a given text.
 
 #include <stdio.h>
-#include <conio.h>
 #include <ctype.h>
 
-void main(void)
+int main(void)
 {
   char text[1000], ch, prevChar = ' ';
   int lines = 0, words = 0, characters = 0;
@@ -37,5 +36,5 @@ void main(void)
   printf("Number of words: %d\n", words);
   printf("Number of characters: %d\n", characters);
 
-  getch();
+  return 0;
 }

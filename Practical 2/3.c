@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
 
   float radius, height, area, volume;
@@ -22,4 +22,5 @@ void main(void)
   printf("Volume: %0.3f m^3\n", volume);
 
   getch();
+  return 0;
 }

@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <string.h>
 
-void main(void)
+int main(void)
 {
   char input[1000];
 
@@ -26,4 +26,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

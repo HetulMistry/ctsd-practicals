@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int s, i, n;
 
@@ -13,8 +13,9 @@ void main(void)
   for (i = 0; i < n; ++i)
   {
     s = 2 * i;
-    printf("%d", s);
+    printf("%d ", s);
   }
 
   getch();
+  return 0;
 }

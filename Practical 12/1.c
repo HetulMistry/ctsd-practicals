@@ -23,7 +23,7 @@ void findTwosComplement(char binary[])
   printf("2's complement of the binary number: %s\n", binary);
 }
 
-void main(void)
+int main(void)
 {
   char binary[100];
 
@@ -33,4 +33,5 @@ void main(void)
   findTwosComplement(binary);
 
   getch();
+  return 0;
 }

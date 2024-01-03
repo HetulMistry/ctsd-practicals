@@ -3,27 +3,29 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   float interval, velocity, time, acceleration, distance;
 
   printf("Enter the number of intervals: ");
-  scanf("%f\n", &interval);
+  scanf("%f", &interval);
 
   for (int i = 1; i <= interval; i++)
   {
     printf("Enter the time (s): ");
-    scanf("%f\n", &time);
+    scanf("%f", &time);
 
     printf("Enter the velocity (m/s): ");
-    scanf("%f\n", &velocity);
+    scanf("%f", &velocity);
 
     printf("Enter the acceleration (m/s^2): ");
-    scanf("%f\n", &acceleration);
+    scanf("%f", &acceleration);
 
     distance = distance + ((velocity * time) + (acceleration + (time * time)) / 2);
   }
 
   printf("Total distance covered is %0.2f m", distance);
+
   getch();
+  return 0;
 }

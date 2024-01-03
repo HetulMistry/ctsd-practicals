@@ -15,7 +15,7 @@ long factorial(int n)
   }
 }
 
-void main(void)
+int main(void)
 {
   int rows, coeff, space;
 
@@ -38,4 +38,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

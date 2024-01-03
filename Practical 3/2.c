@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int a, b, c;
   char ch;
@@ -56,4 +56,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

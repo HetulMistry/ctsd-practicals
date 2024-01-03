@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int n, i, j, count;
 
-  printf("Enter any number: \n");
+  printf("Enter any number: ");
   scanf("%d", &n);
 
   printf("The prime numbers between 1 to %d:\n", n);
@@ -30,4 +30,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

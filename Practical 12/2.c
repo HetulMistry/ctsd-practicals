@@ -36,7 +36,7 @@ int romanToDecimal(char roman[])
   return decimal;
 }
 
-void main(void)
+int main(void)
 {
   char roman[20];
 
@@ -48,4 +48,5 @@ void main(void)
   printf("Decimal equivalent: %d\n", decimal);
 
   getch();
+  return 0;
 }

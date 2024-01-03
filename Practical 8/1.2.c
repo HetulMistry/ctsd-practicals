@@ -36,4 +36,5 @@ int main()
   deleteCharacters(str, position, numCharacters);
 
   getch();
+  return 0;
 }

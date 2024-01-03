@@ -18,7 +18,7 @@ void leftRotateByDSteps(int arr[], int N, int D)
   }
 }
 
-void main(void)
+int main(void)
 {
   int arr[100], N, D;
 
@@ -39,4 +39,5 @@ void main(void)
   leftRotateByDSteps(arr, N, D);
 
   getch();
+  return 0;
 }

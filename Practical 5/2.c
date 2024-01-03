@@ -4,20 +4,20 @@
 #include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   float a, b, c, root1, root2, discriminant;
 
   printf("Enter the values of a b c: ");
-  scanf(" %f %f %f", &a, &b, &c);
+  scanf("%f%f%f", &a, &b, &c);
 
   discriminant = b * b - 4 * a * c;
 
   if (discriminant > 0)
   {
-    root1 = -b + sqrt(discriminant) / (2 * a);
-    root2 = -b - sqrt(discriminant) / (2 * a);
-    printf("The real roots = %f %f", root1, root2);
+    root1 = -1 * ((-b + sqrt(discriminant)) / (2 * a));
+    root2 = -1 * ((-b - sqrt(discriminant)) / (2 * a));
+    printf("The real roots = %0.1f %0.1f", root1, root2);
   }
   else if (discriminant == 0)
   {
@@ -31,4 +31,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

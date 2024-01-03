@@ -1,9 +1,10 @@
 //? Write a C program to calculate the following Sum: Sum=1-x^2/2! +x^4/4!-x^6/6!+x^8/8!-x^10/10!.
 
 #include <stdio.h>
+#include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   int counter, f_count;
   float sum = 0, x, power, fact;
@@ -22,5 +23,7 @@ void main(void)
   }
 
   printf("Sum : %f", sum);
+
   getch();
+  return 0;
 }

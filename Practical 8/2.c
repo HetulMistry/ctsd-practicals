@@ -18,7 +18,7 @@ int isPlaindrome(char str[])
   return 1;
 }
 
-void main(void)
+int main(void)
 {
   char str[100];
 
@@ -35,4 +35,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

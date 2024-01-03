@@ -56,7 +56,8 @@ int findElement(int arr1[], int N, int arr2[], int M, int K)
   }
   return result;
 }
-void main(void)
+
+int main(void)
 {
   int arr1[100], arr2[100], N, M, K;
 
@@ -86,4 +87,5 @@ void main(void)
   printf("Kth element of the final sorted array: %d\n", result);
 
   getch();
+  return 0;
 }

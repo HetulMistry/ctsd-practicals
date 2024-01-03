@@ -25,7 +25,7 @@ int factorialNonRecursive(int number)
   return factorial;
 }
 
-void main(void)
+int main(void)
 {
   int num;
 
@@ -37,4 +37,5 @@ void main(void)
   printf("Factorial using non-recursive function: %d\n", factorialNonRecursive(num));
 
   getch();
+  return 0;
 }

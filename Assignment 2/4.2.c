@@ -22,7 +22,7 @@ void reverse(char word[])
   }
 }
 
-void main(void)
+int main()
 {
   char input[1000];
 
@@ -45,5 +45,7 @@ void main(void)
       word[i] = input[i];
     }
   }
+
   getch();
+  return 0;
 }

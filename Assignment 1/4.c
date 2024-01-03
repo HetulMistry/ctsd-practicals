@@ -2,20 +2,22 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <math.h>
 
-void main(void)
+#define M_PI 3.14159265358979323846
+
+int main(void)
 {
   float radius, area, perimeter;
 
   printf("Enter the radius of the circle: ");
   scanf("%f", &radius);
 
-  area = M_PI * r * r;
-  perimeter = 2 * M_PI * r;
+  area = M_PI * radius * radius;
+  perimeter = 2 * M_PI * radius;
 
-  printf("Area of circle: %f\n", area);
-  printf("Perimeter of circle: %f", perimeter);
+  printf("Area of circle: %0.3f\n", area);
+  printf("Perimeter of circle: %0.3f", perimeter);
 
   getch();
+  return 0;
 }

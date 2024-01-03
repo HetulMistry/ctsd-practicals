@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int a, b, c;
   char ch;
@@ -18,17 +18,17 @@ void main(void)
   {
   case '+':
     c = a + b;
-    printf("a + b = %d.", c);
+    printf("a + b = %d", c);
     break;
 
   case '-':
     c = a - b;
-    printf("a - b  %d.", c);
+    printf("a - b  %d", c);
     break;
 
   case '*':
     c = a * b;
-    printf("a * b  %d.", c);
+    printf("a * b  %d", c);
     break;
 
   case '/':
@@ -37,7 +37,7 @@ void main(void)
     if (b != 0)
     {
       c = (float)a / b;
-      printf("a / b  %d.", c);
+      printf("a / b  %d", c);
     }
     else
     {
@@ -48,9 +48,10 @@ void main(void)
 
   case '%':
     c = a % b;
-    printf("a % b  %d.", c);
+    printf("a % b  %d", c);
     break;
   }
 
   getch();
+  return 0;
 }

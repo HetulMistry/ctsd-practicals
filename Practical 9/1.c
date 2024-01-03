@@ -30,7 +30,7 @@ int findSubstring(char S[], char T[])
   return -1;
 }
 
-void main(void)
+int main(void)
 {
   char S[100], T[100];
 
@@ -52,4 +52,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }
